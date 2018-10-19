@@ -15,4 +15,4 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 8. SMS Gateway: On recording start and end, SMS will be sent to the customer 
 
 # Record Admin
-<img src="images/Record Admin.JPG" width="500">
+<img src="images/Record Admin.png" width="500">

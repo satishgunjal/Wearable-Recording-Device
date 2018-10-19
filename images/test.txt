@@ -1,0 +1,2 @@
+# Wearable-Recording-Device
+Smart wearable recording device with 10 hours of battery life to record CD quality audio.

@@ -13,3 +13,6 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 6. Saleforce CRM will be integrated with Amazon Streaming services to listen to the recorded files(available on S3)
 7. Speachh Analytics: As per customer requirements rules can be set for analytics using mono as wel as stereo files.
 8. SMS Gateway: On recording start and end, SMS will be sent to the customer 
+
+# Record Admin
+<img src="images/Record Admin.JPG" width="500">

@@ -17,7 +17,7 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 ## Record Admin
 <img src="images/Record Admin.jpg" width="500">
 
-## List of items Used
+## List of Items Used
 - Raspberry Pi Zero W 
 - MEMS Microphone
 - PowerBost 1000 w/ 5V USB and Rechargeable Lipo Boost @ 1A

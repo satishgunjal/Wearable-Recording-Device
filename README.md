@@ -16,3 +16,17 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 
 ## Record Admin
 <img src="images/Record Admin.jpg" width="500">
+
+## List of items Used
+- Raspberry Pi Zero W 
+- MEMS Microphone
+- PowerBost 1000 w/ 5V USB and Rechargeable Lipo Boost @ 1A
+- MCP3008 - 8-Channel 10-Bit ADC With SPI Interface
+- Mini Push Button Switch 
+- RGB LED (3)
+- Samsung EVO Plus Grade 1, Class 10 32GB MicroSDHC 95 MB/S Memory Card
+- Silicone Cover Stranded-Core Wire - 30AWG in Red, Blue, Black, Yellow, Green, White
+- 5V, 1A Power Supply with USB Micro-B cable
+- LiPo - Battery Model: 575577 (DNK Power), Thickness: 5.7, W: 55, L: 77, Min V: 3.7, Max V: 4.2, Capacity: 4400mAh
+
+

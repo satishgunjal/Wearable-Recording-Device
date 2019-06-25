@@ -1,5 +1,4 @@
 ## Estimating the Battery Requirement for WRD
-
 - Idle WRD will draw 130mA @ 5V
 - WRD while recording will draw 150mA @5V
 - WRD while transfering the files will draw 300mA @5V

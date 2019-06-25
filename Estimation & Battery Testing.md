@@ -1,0 +1,33 @@
+## Estimating the Battery Requirement for WRD
+
+- Idle WRD will draw 130mA @ 5V
+- WRD while recording will draw 150mA @5V
+- WRD while transfering the files will draw 300mA @5V
+
+- As per above data average current consumption 193mA. We will consider 200mA for our calculations.
+- So 200 mA @ 5V => 1000mW @5V
+- We are using boost converter for converting 3.7V to 5V. Adafruit PowerBoost operating effiency is 90%+ in most cases.
+- I am assuming the boost converter efficiency of 80%
+
+- So 1000mW/3.7V = 270mA @3.7V, but we need to increase it by 20% as we are loosing 20% in boost conversion. 
+  So total current requirements is 270mA + 20% of it =  324mA @3.7V, in addition the UPS itself is consuming about 10-15mA, so our total     current requirements on 3.7 V Battery is 339mA.
+- So WRD on an average will cousume 339mA current.
+
+## Battery Estimation
+- With 2000mAh LiPo battery, WRD should record for 2000mAh/339mA = 5.89 hours
+- With 3000mAh LiPo battery, WRD should record for 3000mAh/339mA = 8.84 hours
+- With 3500mAh LiPo battery, WRD should record for 3500mAh/339mA = 10.32 hours
+- With 4000mAh LiPo battery, WRD should record for 4000mAh/339mA = 11.79 hours
+- With 5000mAh LiPo battery, WRD should record for 5000mA/339mA = 14.74 hours
+- With 5600mAh LiPo battery, WRD should record for 5600mAh/339mA = 16.51 hours
+
+## DNK Battery Testing
+- Capacity: 4400 mAh
+- Consuption: 110A
+- No Of Hours: 7.15 hours (3.75 cutoff voltage)
+- No Of Hours: 18.45 hours (3.4 cutoff voltage)
+
+## Adafruit PK Cell battery testing
+- Capacity: 2500 mAh
+- Consuption: 110A
+- No Of Hours: 4.30 hours (3.75 cutoff voltage)

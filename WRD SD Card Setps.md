@@ -57,7 +57,7 @@ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 - If using I2S MEMS microphone then follow Adafruit doc for Adafruit I2S Mic configuration. https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout?view=all
 
 ## Using pyaudio
-- install pyaudio using below commands
+- Install pyaudio using below commands
 ```
  sudo apt-get install git
  sudo git clone http://people.csail.mit.edu/hubert/git/pyaudio.git

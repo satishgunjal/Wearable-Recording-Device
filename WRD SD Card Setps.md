@@ -7,6 +7,9 @@
 - Uisng Bottle: Python Web Framework
 - Pi Stats
 - Samba File Server
+- Python GET/POST Rest Requests
+- Python Script "record.py"
+
 
 - Installing Adafruit DHT Library
 
@@ -123,3 +126,55 @@ add below lines at the end of file
 ```
 - Now restart the Samba. sudo /etc/init.d/samba restart
 - Now try to access RPI file from PC. Shared folder path will be @"\\<ip address>\RecordedFiles\filename.wav"
+- Samba Server Installation ref.  https://www.raspberrypi.org/magpi/samba-file-server/
+    
+## Python GET/POST Rest Requests
+- Install 'requests' using command. sudo pip install requests
+ 
+## Python Script "record.py"
+- Please refer 'src' folder for source code.
+- To run 'recod.py' as service. ref. http://www.diegoacuna.me/how-to-run-a-script-as-a-service-in-raspberry-pi-raspbian-jessie/
+- Define the service to run this script:
+```
+cd /lib/systemd/system/
+sudo nano record.service
+```
+- The service definition must be on the /lib/systemd/system folder. Our service is going to be called "record.service":
+```
+   	[Unit]
+	Description=Recording Service
+	After=multi-user.target
+ 
+	[Service]
+	Type=simple
+	ExecStart=/usr/bin/python /home/pi/record.py
+	Restart=on-abort
+ 
+	[Install]
+	WantedBy=multi-user.target
+```
+- Now that we have our service we need to activate it
+```
+sudo chmod 644 /lib/systemd/system/record.service
+chmod +x /home/pi/record.py
+sudo systemctl daemon-reload
+sudo systemctl enable record.service
+sudo systemctl start record.service
+```
+- For every change that we do on the /lib/systemd/system folder we need to execute a 'daemon-reload'. If we want to check the status of our service, you can execute: 'sudo systemctl status record.service'
+- In general:
+```
+# Check status
+sudo systemctl status record.service
+ 
+# Start service
+sudo systemctl start record.service
+ 
+# Stop service
+sudo systemctl stop record.service
+ 
+# Check service's log
+sudo journalctl -f -u record.service
+```
+
+

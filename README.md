@@ -30,6 +30,6 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 - 5V, 1A Power Supply with USB Micro-B cable
 - LiPo - Battery Model: 575577 (DNK Power), Thickness: 5.7, W: 55, L: 77, Min V: 3.7, Max V: 4.2, Capacity: 4400mAh
 
-### If you are interested to try it please follow 'WRD SD Card Setps'
+### If you are interested to try it please follow WRD SD Card Setps.md
 
 

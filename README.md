@@ -13,6 +13,7 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 6. Saleforce CRM will be integrated with Amazon Streaming services to listen to the recorded files(available on S3)
 7. Speachh Analytics: As per customer requirements rules can be set for analytics using mono as wel as stereo files.
 8. SMS Gateway: On recording start and end, SMS will be sent to the customer 
+9. For estimation & battery testing Ref 'Estimation & Battery Testing.txt'
 
 ## Record Admin
 <img src="images/Record Admin.jpg" width="500">
@@ -28,5 +29,7 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 - Silicone Cover Stranded-Core Wire - 30AWG in Red, Blue, Black, Yellow, Green, White
 - 5V, 1A Power Supply with USB Micro-B cable
 - LiPo - Battery Model: 575577 (DNK Power), Thickness: 5.7, W: 55, L: 77, Min V: 3.7, Max V: 4.2, Capacity: 4400mAh
+
+## If you are interested to try it please follow 'WRD SD Card Setps'
 
 

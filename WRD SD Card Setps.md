@@ -10,13 +10,6 @@
 - Python GET/POST Rest Requests
 - Python Script "record.py"
 
-
-- Installing Adafruit DHT Library
-
-- Using 8 channel relay with external power supply
-- Using Adafruit PiRTC - PCF8523 Real Time Clock for Raspberry Pi
-- Using UPS
-
 ## Raspbian Setup
 - Installed Raspbian Strech Lite on 32 Gb SD Card. Followed Raspberry pi installation guide.       https://www.raspberrypi.org/documentation/installation/installing-images/README.md
 - Configure SD Card for wifi connection and enabled SSH. https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html

@@ -19,7 +19,7 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 9. For estimation & battery testing Ref 'Estimation & Battery Testing.txt'
 
 # Record Admin
-![Record Admin](images/Record Admin.jpg)
+![Record Admin](images/Record-Admin.jpg)
 
 # List of Items Used
 

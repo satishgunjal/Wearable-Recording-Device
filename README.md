@@ -39,7 +39,4 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 * If you are interested in implementing this solution, please refer [WRD SD Card Setps](https://github.com/satishgunjal/Wearable-Recording-Device/blob/master/WRD%20SD%20Card%20Setps.md)
 
 # 3D Printing
-* For design files please refer [3D Printing](3D Printing)
-
-
-
+* For design files please refer 3D Printing folder.

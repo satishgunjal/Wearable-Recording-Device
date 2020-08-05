@@ -35,7 +35,7 @@ For more images and videos please refer [Photos Album](https://photos.app.goo.gl
 - LiPo - Battery Model: 575577 (DNK Power), Thickness: 5.7, W: 55, L: 77, Min V: 3.7, Max V: 4.2, Capacity: 4400mAh
 
 ### Source Code
-* For source code please refer src folder
+* For source code please refer [src folder](src)
 * If you are interested in implementing this solution, please refer [WRD SD Card Setps](https://github.com/satishgunjal/Wearable-Recording-Device/blob/master/WRD%20SD%20Card%20Setps.md)
 
 

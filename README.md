@@ -1,6 +1,8 @@
 ## Wearable-Recording-Device (WRD)
 Smart wearable recording device with 10 hours of battery life to record CD quality audio.
 
+For more images and videos please refer [Photos Album](https://photos.app.goo.gl/RuVcYvWjzzzGMZDB6)
+
 ## Architecture
 <img src="images/Architecture.png" width="500">
 
@@ -31,5 +33,6 @@ Smart wearable recording device with 10 hours of battery life to record CD quali
 - LiPo - Battery Model: 575577 (DNK Power), Thickness: 5.7, W: 55, L: 77, Min V: 3.7, Max V: 4.2, Capacity: 4400mAh
 
 ### If you are interested to try it please follow 'WRD SD Card Setps.md'
+
 
 

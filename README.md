@@ -1,3 +1,9 @@
+# TODO
+- Add three excel from mail
+- Add one 3d printing image in readme and all other files
+- Remove Estimation & Battery Testing.txt and WRD SD Card Setps.md
+- Add index
+
 # Wearable-Recording-Device (WRD) <a id ="1"></a>
 Wearable Recording Device (WRD) is ID card with embedded electronics for recording the conversation between sales executive and customer. It has upto 10 hours of battery life can record CD quality audio.
 

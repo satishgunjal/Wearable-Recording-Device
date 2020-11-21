@@ -92,16 +92,16 @@ For design files please refer 3D Printing folder.
 
 # Source Code & User Guide <a id ="15"></a>
 For source code please refer [src folder](src). If you are interested in implementing this solution, please follow below steps. Alos make sure to refer the product page of each of these components used in this project. There must be some changes that may affect your workflow.
-- Raspbian Setup (#16)
-- Development Setup (#17)
-- USB Mic configuration (#18)
-- I2S Mic configuration (#19)
-- Using pyaudio (#20)
-- Uisng Bottle: Python Web Framework (#21)
-- Pi Stats (#22)
-- Samba File Server (#23)
-- Python GET/POST Rest Requests (#24)
-- Python Script "record.py" (#25)
+- [Raspbian Setup] (#16)
+- [Development Setup] (#17)
+- [USB Mic configuration] (#18)
+- [I2S Mic configuration] (#19)
+- [Using pyaudio] (#20)
+- [Uisng Bottle: Python Web Framework] (#21)
+- [Pi Stats] (#22)
+- [Samba File Server] (#23)
+- [Python GET/POST Rest Requests] (#24)
+- [Python Script "record.py"] (#25)
 
 ## Raspbian Setup <a id ="16"></a>
 - Installed Raspbian Strech Lite on 32 Gb SD Card. Followed Raspberry pi installation guide.       https://www.raspberrypi.org/documentation/installation/installing-images/README.md

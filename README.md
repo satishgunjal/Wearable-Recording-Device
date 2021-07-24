@@ -1,13 +1,31 @@
-# TODO
-- Add three excel from mail
-- Add one 3d printing image in readme and all other files
-- Remove Estimation & Battery Testing.txt and WRD SD Card Setps.md
-- Add index
+![WRD_Header](images/WRD_Header.jpg)
+# Index
+* [Wearable-Recording-Device](#1)
+* [Inspiration](#2)
+* [Why We Choose Raspberry Pi?](#3)
+* [Architecture](#4)
+* [Items Used](#5)
+* [Record Admin](#6)
+* [Process Flow](#7)
+* [Design Details](#8)
+* [Features](#9)
+* [3D Printing](#10)
+* [Battery Calculations, Estimation, Testing](#11)
+  - [Estimation](#12)
+  - [DNK Battery Testing](#13)
+  - [Adafruit PK Cell Battery Testing](#14)
+* [Source Code & User Guide](#15)
+  - [Raspbian Setup](#16)
+  - [Development Setup](#17)
+  - [USB Mic configuration](#18)
+  - [I2S MEMS Mic configuration](#19)
+  - [Using pyaudio](#20)
+  - [Uisng Bottle: Python Web Framework](#21)
+  - [Pi Stats](#22)
+  - [Samba File Server](#23)
 
 # Wearable-Recording-Device (WRD) <a id ="1"></a>
 Wearable Recording Device (WRD) is ID card with embedded electronics for recording the conversation between sales executive and customer. It has upto 10 hours of battery life can record CD quality audio.
-
-![WRD_Header](images/WRD_Header.jpg)
 
 **For more images and videos please refer [Photos Album](https://photos.app.goo.gl/RuVcYvWjzzzGMZDB6)**
 
@@ -67,6 +85,7 @@ Its a web page with sales person and customer WRD details with recording control
 
 # 3D Printing <a id ="10"></a>
 For design files please refer 3D Printing folder.
+![wrd_3d_printing](https://raw.githubusercontent.com/satishgunjal/images/master/wrd_3d-printing.jpg)
 
 # Battery Calculations, Estimation, Testing <a id ="11"></a>
 * Idle WRD will draw 130mA @ 5V
